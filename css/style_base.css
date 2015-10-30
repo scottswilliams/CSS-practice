@@ -1,0 +1,174 @@
+/* ===============================================
+========== USE @font-face to load fonts ==========
+==================================================*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/*These are all of the custom fonts you will have to link.*/
+@font-face {
+font-family:"ff-dagny-web-pro-1";
+src:url("../fonts/DagnyWebPro.eot");
+}
+
+@font-face {
+font-family:"ff-dagny-web-pro-light";
+src:url(../fonts/DagnyWebPro-Xlight.woff) format("woff");
+}
+
+@font-face {
+font-family:"ff-dagny-web-pro-2";
+src:url(../fonts/DagnyWebPro.woff) format("woff");
+}
+
+@font-face {
+font-family:"ff-dagny-web-pro-bold";
+src:url(../fonts/DagnyWebPro-Bold.woff) format("woff");
+}
+
+/* ===============================================
+================ Some TA styling… ================
+==================================================*/
+
+/*The general width of the layout; scrollbars will appear if window 
+is less wide.*/
+body{
+min-width:825px;
+min-height: 860px;
+background-image:url(../images/bg_pattern.png);
+}
+
+#header_wrapper {
+	background-repeat: repeat-x;
+	background-image: url(../images/bg_header.gif);
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	color: transparent;
+	
+	
+
+}
+
+#logo {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 5% 0;
+	padding: 5px;
+	display: inline;
+	position: absolute;
+
+
+
+	
+}
+
+#top_nav li{
+	float: left;
+	height: 59px;
+	background-repeat: no-repeat;
+	display: inline;
+	position: relative;
+	float: left;
+	display: inline;
+}
+
+
+
+#nav_features {
+	background-image: url(../images/navigation.png);
+	width: 92px;
+}
+#nav_pricing {
+	background-image: url(../images/navigation.png);
+	width: 81px;
+	background-position: -92px 0;
+}
+
+#nav_add-ons {
+	background-image: url(../images/navigation.png);
+	width: 90px;
+	background-position: -173px 0;
+}
+#nav_customers {
+	background-image: url(../images/navigation.png);
+	width: 107px;
+	background-position: -437px 0;
+}
+#nav_about {
+	background-image: url(../images/navigation.png);
+	width: 73px;
+	background-position: -263px 0;
+}
+
+#nav_blog {
+	background-image: url(../images/navigation.png);
+	width: 62px;
+	background-position: -544px 0;
+}
+#nav_features:hover {
+	background-image: url(../images/navigation.png);
+	width: 92px;
+	background-position: 0 -59px;
+}
+#nav_pricing:hover {
+	background-image: url(../images/navigation.png);
+	width: 81px;
+	background-position: -92px -59px;
+}
+
+#nav_add-ons:hover {
+	background-image: url(../images/navigation.png);
+	width: 90px;
+	background-position: -173px -59px;
+}
+#nav_customers:hover {
+	background-image: url(../images/navigation.png);
+	width: 107px;
+	background-position: -437px -59px;
+}
+#nav_resources:hover {
+	display: none;
+}
+#nav_about:hover {
+	background-image: url(../images/navigation.png);
+	width: 73px;
+	background-position: -263px -59px;
+}
+
+#nav_blog:hover {
+	background-image: url(../images/navigation.png);
+	width: 62px;
+	background-position: -544px -59px;
+}
+
+/*Take note of how to apply use of a custom font*/
+h1,h2,h3,h4,h5,p {
+padding:0;
+margin:0;
+font-family:"ff-dagny-web-pro-1","ff-dagny-web-pro-2","Helvetica 
+Neue", Helvetica, Arial, sans-serif;
+}
+footer {
+    min-width:800px;
+    text-align: center;
+}
+
+#footer_nav_wrapper li {
+    text-transform:uppercase;
+    display: inline;
+    margin: 0px 20px;
+}
+
+#footer_nav_wrapper li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: sans-serif;
+    
+}
+
+#footer_nav_wrapper a:hover {
+    color: #919191;
+}
