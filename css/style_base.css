@@ -45,6 +45,7 @@ background-image:url(../images/bg_pattern.png);
 	white-space: nowrap;
 	overflow: hidden;
 	color: transparent;
+	translate(0, 100px);
 
 
 	
@@ -58,10 +59,14 @@ background-image:url(../images/bg_pattern.png);
 	background-position: 5% 0;
 	float: left;
 	position: absolute;
-	padding: 5px;
+	padding: 90px;
+	margin: 0 0 0 4%;
 
-	
 }
+
+#logo a{
+	display: none;
+	}
 #top_nav li{
 	float: left;
 	height: 59px;
@@ -69,9 +74,6 @@ background-image:url(../images/bg_pattern.png);
 	position: relative;
 	margin: -17px 0 0 0;
 	left: 250px;
-	translate(0, 50px);
-
-
 }
 
 
@@ -106,37 +108,153 @@ background-image:url(../images/bg_pattern.png);
 	background-position: -544px 0;
 }
 #nav_features:hover {
-	width: 92px;
+
 	background-position: 0 -59px;
 }
 #nav_pricing:hover {
-	width: 81px;
+
 	background-position: -92px -59px;
 }
 
 #nav_add-ons:hover {
-	width: 90px;
+
 	background-position: -173px -59px;
 }
 #nav_customers:hover {
-	width: 107px;
+
 	background-position: -437px -59px;
 }
 
 #nav_about:hover {
-	width: 73px;
+	
 	background-position: -263px -59px;
 }
 
 #nav_blog:hover {
-	width: 62px;
+	
 	background-position: -544px -59px;
 }
 
 #picture_panel {
 	color: white;
-	font-family: "Arial";
+	font-family: "ff-dagny-web-pro-2";
 	text-align: center;
+}
+
+#picture_panel h2 {
+	margin: 50px;
+	font-size: 48px;
+}
+
+.icon_column {
+	position: relative;
+	float: left;
+
+	margin: 0 0 50px 0;
+	width: 33%;
+
+}
+
+.learn_more {
+	color: transparent; 
+	background-image: url(../images/learn-more.png);
+	width: 83px;
+	height: 20px;
+	
+}
+
+.learn_more:hover {
+	background-position: 0 -20px;
+}
+
+#sign-up_button-panel {
+	background-color: #242424;
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	color: white;
+}
+
+#sign-up_button-panel h4:nth-child(1) {
+	float: left;
+	left: -15%;
+	padding: 40px 0 0 0;
+	margin-left: 80px;
+
+}
+
+#sign-up_button-panel h4:nth-child(3) {
+	float: right;
+	right: -15%;
+	padding: 40px 0 0 0;
+	margin-right: 80px;
+
+
+}
+#sign-up_button-panel a  {
+		margin-top: 30px;
+}
+#plan_and_pricing_large {
+	background-image: url(../images/cta.png);
+	height: 57px;
+	width: 268px;
+	color: transparent;
+	padding: 0px 140px 40px 0px;
+	float: center;
+	margin-top: 30px;
+	
+
+}
+
+
+#plan_and_pricing_large:hover {
+	background-position: -268px 0;
+}
+
+
+#page-content {
+	float: left;
+	background-color: white;
+	}
+#left-panel-float {
+	float: left;
+	padding-down: 100px;
+	font-family: "Arial"
+
+	
+}
+
+#left-panel-float h2 {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#left-panel-float ul {
+	list-style-type: none;
+
+}
+
+#left-panel-float a {
+	color: orange;
+}
+#right-panel-content {
+	background-image: url(../images/bg_home_right.png);
+	background-repeat: no-repeat;
+	background-color: white;
+	margin-left: 33%;
+	height: 300px;
+}
+
+#right-panel-content p {
+	margin-left: 30px;
+	margin-bottom: 10px;
+	
+}
+
+#right-panel-content h3 {
+	margin-left: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 /*Take note of how to apply use of a custom font*/
 h1,h2,h3,h4,h5,p {
@@ -152,12 +270,33 @@ Neue", Helvetica, Arial, sans-serif;
 footer {
     min-width:800px;
     text-align: center;
+	
 }
+#footer_nav {
+	position: relative;
+	top: 30px;
+	bottom: 100%;
+}
+#footer_nav_wrapper {
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+
+
+}
+
 
 #footer_nav_wrapper li {
     text-transform:uppercase;
     display: inline;
-    margin: 0px 20px;
+
+}
+
+#footer_nav_wrapper ul {
+	height: 30px;
+	bottom: 200px;
+	background-image: url(..images/bg_footer.gif);
+	
 }
 
 #footer_nav_wrapper li a {
@@ -166,6 +305,7 @@ footer {
     font-weight: bold;
     font-size: 11px;
     font-family: sans-serif;
+  	padding: 30px;
     
 }
 
