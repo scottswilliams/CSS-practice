@@ -45,6 +45,8 @@ background-image:url(../images/bg_pattern.png);
 	white-space: nowrap;
 	overflow: hidden;
 	color: transparent;
+
+
 	
 	
 
@@ -54,100 +56,98 @@ background-image:url(../images/bg_pattern.png);
 	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	background-position: 5% 0;
-	padding: 5px;
-	display: inline;
+	float: left;
 	position: absolute;
-
-
+	padding: 5px;
 
 	
 }
-
 #top_nav li{
 	float: left;
 	height: 59px;
 	background-repeat: no-repeat;
-	display: inline;
 	position: relative;
-	float: left;
-	display: inline;
+	margin: -17px 0 0 0;
+	left: 250px;
+	translate(0, 50px);
+
+
 }
 
 
+#nav_features, #nav_pricing, #nav_add-ons, #nav_customers, #nav_about, #nav_blog, #nav_about:hover, #nav_about:hover, #nav_features:hover, #nav_pricing:hover,
+#nav_add-ons:hover, #nav_customers:hover, #nav_resources:hover {
+    background-image: url(../images/navigation.png);
+ }
 
 #nav_features {
-	background-image: url(../images/navigation.png);
 	width: 92px;
 }
 #nav_pricing {
-	background-image: url(../images/navigation.png);
 	width: 81px;
 	background-position: -92px 0;
 }
 
 #nav_add-ons {
-	background-image: url(../images/navigation.png);
 	width: 90px;
 	background-position: -173px 0;
 }
 #nav_customers {
-	background-image: url(../images/navigation.png);
 	width: 107px;
 	background-position: -437px 0;
 }
 #nav_about {
-	background-image: url(../images/navigation.png);
 	width: 73px;
 	background-position: -263px 0;
 }
 
 #nav_blog {
-	background-image: url(../images/navigation.png);
 	width: 62px;
 	background-position: -544px 0;
 }
 #nav_features:hover {
-	background-image: url(../images/navigation.png);
 	width: 92px;
 	background-position: 0 -59px;
 }
 #nav_pricing:hover {
-	background-image: url(../images/navigation.png);
 	width: 81px;
 	background-position: -92px -59px;
 }
 
 #nav_add-ons:hover {
-	background-image: url(../images/navigation.png);
 	width: 90px;
 	background-position: -173px -59px;
 }
 #nav_customers:hover {
-	background-image: url(../images/navigation.png);
 	width: 107px;
 	background-position: -437px -59px;
 }
-#nav_resources:hover {
-	display: none;
-}
+
 #nav_about:hover {
-	background-image: url(../images/navigation.png);
 	width: 73px;
 	background-position: -263px -59px;
 }
 
 #nav_blog:hover {
-	background-image: url(../images/navigation.png);
 	width: 62px;
 	background-position: -544px -59px;
 }
 
+#picture_panel {
+	color: white;
+	font-family: "Arial";
+	text-align: center;
+}
 /*Take note of how to apply use of a custom font*/
 h1,h2,h3,h4,h5,p {
 padding:0;
 margin:0;
 font-family:"ff-dagny-web-pro-1","ff-dagny-web-pro-2","Helvetica 
 Neue", Helvetica, Arial, sans-serif;
+
+#top_container {
+	color: white;
+}
 }
 footer {
     min-width:800px;
